@@ -19,7 +19,7 @@ import java.util.function.Consumer;
 @RestController
 @RequestMapping("math")
 public class MathController {
-    @Reference
+    @Reference(retries = 0, check = false, timeout = 3000)
     MathApi mathApi;
 
     @GetMapping("sum")
