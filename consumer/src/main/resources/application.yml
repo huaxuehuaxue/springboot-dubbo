@@ -1,2 +1,9 @@
 server:
   port: 9024
+
+
+dubbo:
+  application:
+    name: dubbo-consumer
+  registry:
+    address: zookeeper://localhost:2181
