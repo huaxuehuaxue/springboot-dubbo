@@ -9,6 +9,8 @@ sourceCompatibility = 1.8
 
 
 dependencies {
+    //api
+    compile project(":api")
     compile group: 'org.springframework.boot', name: 'spring-boot-starter-web', version: '2.2.4.RELEASE'
     compile group: 'org.springframework.boot', name: 'spring-boot-starter', version: '2.2.4.RELEASE'
     // dubbo-spring-boot-starter
